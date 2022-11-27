@@ -1,0 +1,9 @@
+table, th, td{
+    font-size: 50px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
