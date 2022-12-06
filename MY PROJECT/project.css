@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo h1{
+    color:greenyellow;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.logo span{
+    color: aqua;
+}
+
+.menu a {
+    color:chocolate;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding: .8rem;
+    margin: .8rem;
+    text-transform:uppercase;
+}
+.menu a:hover{
+    color: aqua;
+}
+
+.head{
+    flex-basis: 70%;
+}
+.head2{
+    margin-left: 1100px;
+}
+
+.container{
+    margin-left: 1000px;
+    padding-left: 100px;
+    width: 100px;
+    color: red;
+}
+.container input{
+    margin-top: 10px;
+    padding: 6px;
+    width: 300px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 130px;
+    padding: 6px;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+h3{
+    font-size: xx-large;
+    margin-left: 400px;
+}
+h4{
+    font-size:x-large;
+    color: rgb(60, 7, 110);
+    margin-left: 350px;
+}
+#p1{
+    color: white;
+    margin-left: 100px;
+}
+
+section{
+    width: 100%;
+    margin: 100px auto;
+}
+.title{
+    text-align: center;
+    font-size: 8vmin;
+    color: yellow;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+.row .col img{
+    width: 80%;
+}
+.col1 img{
+    height: 300px;
+    width: 650px;
+    margin-right: 100px;
+    border-radius: 30px;
+}
