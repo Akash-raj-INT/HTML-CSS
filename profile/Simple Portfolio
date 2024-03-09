@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Data Scientist</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate and skilled Data Scientist with expertise . I enjoy turning data into valuable insights and actionable strategies. Explore my projects and experience below.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>
+            Here are some of the key projects I've worked on:
+            <ul>
+                <li><a href="#">Project 1</a> - Description of project 1.</li>
+                <li><a href="#">Project 2</a> - Description of project 2.</li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            Let's connect! Feel free to reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>. You can also find me on [LinkedIn/GitHub/other platform] at <a href="https://github.com/yourusername">github.com/yourusername</a>.
+        </p>
+    </section>
+
+</body>
+</html>
