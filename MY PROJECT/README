@@ -1,0 +1,80 @@
+# Fitness Club Website 💪
+
+A responsive fitness club landing page that allows users to explore gym events, learn about training, and register using a form integrated with **EmailJS** to send details to the gym's email automatically.
+
+## 🌐 Live Features
+
+- Responsive layout with sections for:
+  - About
+  - Training
+  - Time Table
+  - Nutrition
+  - Gallery
+- Image carousel section showcasing gym visuals
+- Registration form integrated with EmailJS (name, phone, email)
+- Informative sections like "About Us" and "Latest Events"
+- Embedded event cards: Family Workouts, Free Gym Access, Weight Lifting Contest
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- EmailJS (for form submissions)
+
+## 📦 Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/fitness-club-website.git
+   cd fitness-club-website
+Install Dependencies
+No dependencies needed for HTML/CSS, but include EmailJS via CDN or npm for form functionality.
+
+Include EmailJS
+Add this script before the closing </body> tag of your HTML file:
+
+html
+Copy
+Edit
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("ro8Dm-tq-EOmSxUW2"); // Your Public Key
+    })();
+</script>
+Create and Link Your Form Script
+Example JavaScript (you can link it via <script src="form.js"></script>):
+
+javascript
+Copy
+Edit
+document.querySelector(".btn").addEventListener("click", function () {
+    const name = document.querySelector('input[placeholder="Your Name"]').value;
+    const phone = document.querySelector('input[placeholder="Your Phone No"]').value;
+    const email = document.querySelector('input[placeholder="Your Email"]').value;
+
+    const templateParams = {
+        name: name,
+        email: email,
+        subject: "Fitness Club Registration",
+        message: `Phone: ${phone}, Email: ${email}`,
+    };
+
+    emailjs.send('service_8r94r1g', 'template_qe2l93x', templateParams)
+        .then(response => {
+            alert("Registration Successful!");
+        }, error => {
+            alert("Failed to register. Try again!");
+        });
+});
+📁 Project Structure
+bash
+Copy
+Edit
+fitness-club-website/
+│
+├── index.html          # Main HTML file
+├── project.css         # CSS styles
+├── form.js             # (Optional) JS form logic
+└── README.md           # This file
