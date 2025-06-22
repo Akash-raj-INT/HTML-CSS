@@ -1,7 +1,7 @@
 # Fitness Club Website 💪
 
 A responsive fitness club landing page that allows users to explore gym events, learn about training, and register using a form integrated with **EmailJS** to send details to the gym's email automatically.
-
+    
 ## 🌐 Live Features
 
 - Responsive layout with sections for:
